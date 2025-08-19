@@ -53,14 +53,14 @@ const About = () => {
             <p className="text-5xl text-gray-300 font-semibold text-center">
               Hey, I’m Dhanush <br /> Ask me what I love to build with.
             </p>
+            <Card style={{ rotate: "-10deg", top: "-5%", left: "-10%" }} text="LLM Agents" containerRef={grid2Container} />
+<Card style={{ rotate: "8deg", top: "-5%", left: "60%" }} text="Real-time Systems" containerRef={grid2Container} />
+<Card style={{ rotate: "5deg", top: "80%", left: "-5%" }} text="AI Workflows" containerRef={grid2Container} />
+<Card style={{ rotate: "10deg", top: "55%", left: "70%" }} text="LangChain" containerRef={grid2Container} />
+<Card style={{ rotate: "-8deg", top: "85%", left: "75%" }} text="n8n Automation" containerRef={grid2Container} />
+<Card style={{ rotate: "5deg", top: "55%", left: "-10%" }} text="LangGraph" containerRef={grid2Container} />
+<Card style={{ rotate: "0deg", top: "70%", left: "40%" }} text="CrewAI" containerRef={grid2Container} />
 
-            <Card style={{ rotate: "-10deg", top: "20%", left: "15%" }} text="LLM Agents" containerRef={grid2Container} />
-            <Card style={{ rotate: "15deg", top: "50%", left: "50%" }} text="Real-time Systems" containerRef={grid2Container} />
-            <Card style={{ rotate: "5deg", top: "65%", left: "20%" }} text="AI Workflows" containerRef={grid2Container} />
-            <Card style={{ rotate: "-20deg", top: "35%", left: "75%" }} text="LangChain" containerRef={grid2Container} />
-            <Card style={{ rotate: "25deg", top: "25%", left: "55%" }} text="n8n Automation" containerRef={grid2Container} />
-            <Card style={{ rotate: "-25deg", top: "15%", left: "55%" }} text="LangGraph" containerRef={grid2Container} />
-            <Card style={{ top: "1%", left: "55%" }} text="CrewAI" containerRef={grid2Container} />
           </div>
         </div>
 
