@@ -2,7 +2,13 @@ import { FlipWords } from "./FlipWords";
 import { motion } from "framer-motion";
 
 const HeroText = () => {
-  const words = ["LLMs", "Deep Learning", "Agents"];
+  const words = [
+  "LLMs",
+  "Deep Learning",
+  "AI Agents",
+  "Generative AI",
+  "Intelligent Agents"
+];
   const variants = {
     hidden: { opacity: 0, x: -50 },
     visible: { opacity: 1, x: 0 },
